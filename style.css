@@ -1,0 +1,129 @@
+body
+{
+    margin: 0 auto;
+}
+
+section.top-page
+{
+    background: url(images/bg.jpg);
+    background-size: cover;
+    height: 600px;
+    padding: 25px;
+    
+}
+
+header img
+{
+    width: 150px;
+}
+
+/* menu de navigation */
+nav
+{
+    margin-left: 25px;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    width: 500px;
+
+}
+
+nav li
+{
+    color: white;
+   
+}
+
+header
+{
+    display: flex;
+    align-items: center;
+}
+
+.gros-titre
+{
+    color: white;
+    font-size: 80px;
+}
+
+.landing-page
+{
+    margin-left: 80px;
+}
+
+.scroll
+{
+    color: white;
+    text-decoration: none;
+    position: absolute;
+    bottom: 290px;
+}
+
+/* services */
+.services
+{   
+    display: flex;
+    justify-content: space-between;
+
+
+}
+
+.delivery-icon
+
+{
+   font-size: 50px; 
+   color: #ADD981;
+   margin: 50px;
+}
+
+.services-items
+{
+    flex-direction: column;
+    align-items: center;
+}
+
+.para
+{
+    font-weight: 600;
+    width: 200px;
+    text-align: center;
+}
+
+/* meilleures ventes */
+.titre-meilleures
+{
+    font-size: 50px;
+    font-weight: 100;
+    position: relative;
+}
+
+.titre-meilleures::before
+{
+    content: "";
+    position: absolute;
+    background-color: #ADD981;
+    width: 450px;
+    height: 5px;
+    bottom: 0;
+}
+
+.best-plants
+{
+    background-color: blue;
+    min-height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.plant-box
+{
+    background-image: url(images/plante1.jpg);
+    min-width: 350px;
+    height: 500;
+    flex: 1;
+    
+}
+
+IBAN BE62 7320 1145 6761
+BIC CREGBEBB
+communication Goksel ozturk 2ème électricien automaticien
